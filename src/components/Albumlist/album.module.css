@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 25px;
+    row-gap: 35px; 
+    margin: 60px;
+    
+
+}
+
+.album_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(13, 2, 91);
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px ;
+    box-shadow: rgba(24, 24, 24, 0.24) 0px 3px 8px;
+     background-color: #ffffff;
+     transition-property: all;
+     transition-duration: 0.15s;
+     transition-timing-function: ease-in;
+     cursor: pointer;
+     
+}
+.album_div:hover{
+    border: 3px solid rgb(237, 32, 1);
+    background-color: #fffbfb;
+    transform: scale(1.1);
+}
+.image{
+    height: 60%;
+    width: 50%;
+     border: 4px solid rgb(212, 22, 22); 
+    padding: 10px;
+    border-radius: 15px;
+}

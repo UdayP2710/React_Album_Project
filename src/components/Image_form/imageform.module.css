@@ -1,0 +1,60 @@
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+}
+.form{
+    padding: 20px;
+    margin: 18px;
+    background-color: rgb(225, 219, 219);
+    border-radius:4px ;
+    width: 60vw;
+}
+.btn{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+#cancel{
+    border: 3px solid rgb(255, 110, 110);
+    background-color: rgb(244, 188, 188);
+    color: black;
+    
+}
+#add{
+    border: 3px solid rgb(120, 221, 255);
+    background-color: rgb(178, 205, 238);
+    color: black;
+}
+#create{
+    border: 3px solid rgb(96, 222, 18);
+    background-color: rgb(80, 255, 104);
+    color:black ;
+}
+#clear{
+    border: 3px solid rgb(249, 197, 27);
+    background-color: rgb(241, 254, 57);
+    color: black;
+}
+.input{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 75%;
+}
+.image_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.backimage{
+    border: 2px solid rgb(211, 211, 211);
+    height: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

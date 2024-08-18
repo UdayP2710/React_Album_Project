@@ -1,0 +1,24 @@
+.nav_container{
+    display: flex;
+    margin: 0px;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(26, 26, 26);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.logocont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.logocont img{
+    width: 3.6em;
+    height: 3.6em;
+    border-radius: 15px;
+}
+.logocont h1{
+    font-size: 2.4em;
+    color: rgba(255, 255, 255, 0.808);
+}
